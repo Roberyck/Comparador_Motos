@@ -96,6 +96,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 65px;
+  /* Establecer medidas y con otra llavecilla poner el estilo para esass medidas */
 }
 .tarjeta {
   background: white;
