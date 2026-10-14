@@ -94,10 +94,18 @@ body {
 }
 .tabla {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 65px;
-  /* Establecer medidas y con otra llavecilla poner el estilo para esass medidas */
+}@media (min-width: 576px) {
+.tabla {
+  grid-template-columns: repeat(2, 1fr);
 }
+@media (min-width: 1024px) {
+  .tabla {
+    grid-template-columns: repeat(3, 1fr);
+}
+}
+/* Establecer medidas y con otra llavecilla poner el estilo para esass medidas */
 .tarjeta {
   background: white;
   padding: 16px;
