@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>MotoVersus</title>
-    <link rel="stylesheet" href="nakeds+.css" />
+    <link rel="stylesheet" href="nakeds.css" />
   </head>
   <body>
     <!-- Este es el encabezado que estara igual por todos lados -->
@@ -18,7 +18,7 @@
       </nav>
     </header>
     <!-- La estructura del articulo es imagen con el nombre y un botos en el que puedes reelegir una moto por si quieres escoger otra -->
-    <article>
+    <article class="articulo">
       <div class="tarjeta">
         <img>imagen1</img>
         <h1>nombre1</h1>
@@ -32,9 +32,17 @@
       </div>
     </article>
     <article>
-      <summary>
-
-      </summary>
+      <!-- Aqui van los desplegables que son un sumarry con un -->
+       <details class="detalles">
+         <summary>Detalles objetivos</summary>
+         <div class="comparador"></div>
+          <table>Tiene 600cc</table>
+      </details>
+      <details class="detalles">
+         <summary>Detalles subjetivos</summary>
+         <div class="comparador"></div>
+          <table>Es comoda</table>
+      </details>
     </article>
 
   </body>

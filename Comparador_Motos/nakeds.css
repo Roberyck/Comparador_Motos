@@ -1,26 +1,53 @@
-header {
-  display: block;
-  background-color: rgb(145, 10, 10);
-  max-width: 100%;
-  border-radius: 30px;
-  color: white;
-  padding-left: 2%;
-  min-height: 100px;
+.cabecera {
   display: flex;
-  font-size: 30px;
-  font-family: arial, sans-serif;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+  background: #1c1c1e;
 }
-.subtitulo {
-  justify-content: center;
-  background-color: black;
-  min-height: 30px;
-  padding-left: 1%;
-  border-radius: 7px;
-  font-size: 15px;
-  max-width: 490px;
-  padding-top: 10px;
+nav {
+  display: flex;
+  align-items: center;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 24px;
+}
+.logo {
+  margin: 0;
+  color: white;
+  font-size: 27px;
+}
+.logo span {
+  color: orangered;
+}
+.usuario {
+  width: 40px;
+  height: 40px;
+  border: 2px solid orangered;
+  border-radius: 50%;
+  margin-left: 8px;
+  background: orangered;
 }
 body {
-  background-color: rgb(53, 50, 50);
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: white;
+  color: #222;
+}
+.articulo {
+  display: flex;
+  background-color: yellowgreen;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+.detalles {
+  display: flex;
+  background-color: rebeccapurple;
+}
+.comparador {
+  display: inline-block;
+  background-color: salmon;
 }
