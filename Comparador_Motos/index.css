@@ -1,0 +1,144 @@
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+  background: #1c1c1e;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 24px;
+}
+.logo {
+  margin: 0;
+  color: white;
+  font-size: 27px;
+}
+.logo span {
+  color: orangered;
+}
+.usuario {
+  width: 40px;
+  height: 40px;
+  border: 2px solid orangered;
+  border-radius: 50%;
+  margin-left: 8px;
+  background: orangered;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: white;
+  color: #222;
+}
+
+.titulo {
+  text-align: center;
+  padding: 70px 20px;
+  background: #343436;
+  color: white;
+}
+.titulo h2 {
+  font-size: 39px;
+}
+.titulo p {
+  font-size: 18px;
+  margin: 0 0 24px;
+  color: white;
+}
+.boton {
+  display: inline-block;
+  padding: 12px 36px;
+  background: orangered;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+.pasos {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.pasos ol {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+}
+.pasos h2 {
+  text-align: center;
+  margin-bottom: 28px;
+}
+.pasos li {
+  flex: 1;
+  background: #fff;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 15px;
+  box-shadow: 0 2px 6px black;
+}
+.pasos span {
+  color: orangered;
+  font-weight: bold;
+}
+.categoria {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px 20px 50px;
+}
+.tabla {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 65px;
+}
+@media (min-width: 576px) {
+  .tabla {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .tabla {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+.tarjeta {
+  background: white;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px black;
+}
+.foto {
+  height: 130px;
+  background: white;
+  color: gray;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tarjeta h3 {
+  margin: 14px 0 6px;
+}
+.tarjeta p {
+  margin: 0 0 12px;
+  font-size: 15px;
+  color: #555;
+}
+.tarjeta a {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+  padding: 16px;
+  background: #1c1c1e;
+  color: #bbb;
+  font-size: 14px;
+}
