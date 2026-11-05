@@ -51,3 +51,9 @@ body {
   display: inline-block;
   background-color: salmon;
 }
+.detalles {
+  display: block;
+}
+.comparador {
+  display: grid;
+}
