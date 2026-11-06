@@ -43,6 +43,9 @@ body {
   align-items: center;
   justify-content: center;
 }
+.grafico {
+  display: flex;
+}
 .detalles {
   display: flex;
   background-color: rebeccapurple;
